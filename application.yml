@@ -1,24 +1,3 @@
-foo: fooo99
-
 spring:
     profiles:
         active: test
----
-spring:
-    active: test
-foo1: fooo9997test
-foo111: fooo
-
-
----
-spring:
-    active: dev
-foo1: fooo9997dev
-foo111: fooodev
-
-
----
-spring:
-    active: tt
-foo1: fooo9997devt
-foo111: fooodevt
