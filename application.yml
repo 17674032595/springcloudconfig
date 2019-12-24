@@ -1,0 +1,22 @@
+foo: fooo9999test
+
+spring:
+    profiles:
+        active: test
+---
+foo1: fooo9997test
+foo111: fooo
+spring:
+    active: test
+
+---
+foo1: fooo9997dev
+foo111: fooodev
+spring:
+    active: dev
+
+---
+foo1: fooo9997devt
+foo111: fooodevt
+spring:
+    active: tt
